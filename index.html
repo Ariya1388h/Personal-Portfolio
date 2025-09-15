@@ -1,16 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/unicons.css"/>
-</head>
-<body>
-    
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Ariya Hasanzadeh | Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <a href="#"><span class="logo nav__logo">A</span> RIYA</a>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact" class="btn">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn__large">Contact</a>
+    </nav>
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="assets/header.jpg" alt="header" />
+      </div>
+      <div class="header__content">
+        <div>
+          <h1>Ariya<br />Front-End Dev<br />violinist</h1>
+        </div>
+        <p class="section__description">
+          I’m Ariya, a passionate front-end developer and dedicated violinist. I love building clean, interactive, and user-friendly web experiences while also exploring the expressive world of music through my violin.
+        </p>
+        <div class="header__btn">
+          <button class="btn">Hire Me Now</button>
+        </div>
+      </div>
+    </header>
 
-</body>
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/bg.png" alt="bg" class="about__bg-1" />
+        <img src="assets/bg.png" alt="bg" class="about__bg-2" />
+        <img src="assets/about.jpg" alt="about" class="about__img" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Bit About Me</h2>
+        <p class="section__description">
+          I’m currently attending i Neurobit, where I continue expanding my skills and knowledge, and I also perform as part of the Tehran Orchestra. Balancing coding and music gives me a unique perspective—precision and logic from development, harmony and expression from performance—both fueling my creativity.
+        </p>
+        <div class="about__btn">
+          <button class="btn">Download CV</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service"> 
+  <h2 class="section__header">My Best Services</h2> 
+  <div class="service__grid"> 
+    <div class="service__card"> 
+      <span><i class="ri-window-fill"></i></span> 
+      <h4>Front-End Development</h4> 
+      <p> 
+        I build clean, responsive, and interactive user interfaces that deliver 
+        smooth user experiences across web platforms. 
+      </p> 
+    </div> 
+    <div class="service__card"> 
+      <span><i class="ri-music-2-line"></i></span> 
+      <h4>Violin Performance</h4> 
+      <p> 
+        As a violinist, I perform both solo and in ensembles, blending technical 
+        precision with musical expression. 
+      </p> 
+    </div> 
+    <div class="service__card"> 
+      <span><i class="ri-book-open-line"></i></span> 
+      <h4>Neurobit Program</h4> 
+      <p> 
+        Currently attending i Neurobit, where I enhance my technical expertise 
+        and expand my creative problem-solving skills. 
+      </p> 
+    </div> 
+    <div class="service__card"> 
+      <span><i class="ri-team-line"></i></span> 
+      <h4>Tehran Orchestra</h4> 
+      <p> 
+        I contribute as part of the Tehran Orchestra, collaborating with talented 
+        musicians to bring classical and modern works to life. 
+      </p> 
+    </div> 
+    <div class="service__card"> 
+      <span><i class="ri-code-line"></i></span> 
+      <h4>Pygame & Python Development</h4> 
+      <p> 
+        I design and develop interactive games and applications using Python and 
+        Pygame, combining logic with creativity. 
+      </p> 
+    </div> 
+    <div class="service__card"> 
+      <span><i class="ri-lightbulb-flash-line"></i></span> 
+      <h4>Creative Problem Solving</h4> 
+      <p> 
+        By combining music, coding, and design, I approach challenges with a 
+        unique perspective that balances structure and creativity. 
+      </p> 
+    </div> 
+  </div> 
+</section>
+
+    <section class="section__container portfolio__container" id="portfolio"> 
+  <h2 class="section__header">My Portfolio</h2> 
+  <p class="section__description"> 
+    Here you can see a collection of my works, from web development projects 
+    and design experiments to creative coding and personal studies. Each project 
+    represents a step in my learning journey and my passion for building 
+    functional and engaging digital experiences. 
+  </p> 
+  <div class="portfolio__grid"> 
+    <div class="portfolio__card"> 
+      <img src="assets/project-1.jpg" alt="Web Development Project" /> 
+    </div> 
+    <div class="portfolio__card"> 
+      <img src="assets/project-2.jpg" alt="UI/UX Design Sample" /> 
+    </div> 
+    <div class="portfolio__card"> 
+      <img src="assets/project-3.jpg" alt="Pygame Project" /> 
+    </div> 
+    <div class="portfolio__card"> 
+      <img src="assets/project-4.jpg" alt="Frontend Website" /> 
+    </div> 
+    <div class="portfolio__card"> 
+      <img src="assets/project-5.jpg" alt="Creative Coding" /> 
+    </div> 
+    <div class="portfolio__card"> 
+      <img src="assets/project-6.jpg" alt="Personal Project" /> 
+    </div> 
+  </div> 
+  <div class="portfolio__banner"> 
+    <div class="portfolio__banner__card"> 
+      <span><i class="ri-macbook-line"></i></span> 
+      <h4>15+ Projects</h4> 
+      <p>Completed</p> 
+    </div> 
+    <div class="portfolio__banner__card"> 
+      <span><i class="ri-discuss-line"></i></span> 
+      <h4>0 Clients</h4> 
+      <p>Collaborations</p> 
+    </div> 
+    <div class="portfolio__banner__card"> 
+      <span><i class="ri-heart-fill"></i></span> 
+      <h4>100% Passion</h4> 
+      <p>In Every Work</p> 
+    </div> 
+  </div> 
+</section>
+
+
+    <section class="section__container contact__container" id="contact">
+      <div class="logo">A</div>
+      <h2 class="section__header">Let's Talk With Me!</h2>
+      <p class="section__description">
+        An open invitation to connect, and exploring collaborative opportunities
+        on my personal portfolio website.
+      </p>
+      <div class="contact__socials">
+        <a href="https://x.com/V138890618"><i class="ri-twitter-fill"></i></a>
+        <a href="https://www.instagram.com/ariya.hsnzade/?next=%2F"><i class="ri-instagram-fill"></i></a>
+        <a href="https://www.youtube.com/@ItsAriya.h"><i class="ri-youtube-fill"></i></a>
+        <a href="https://github.com/Ariya1388h"><i class="ri-github-line"></i></a>
+        <a href="https://t.me/AriyasArtWork"><i class="ri-telegram-line"></i></a>
+      </div>
+    </section>
+    <footer class="footer">
+      Copyright © 2023 Web Design Mastery. All rights reserved.
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
